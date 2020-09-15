@@ -1,14 +1,15 @@
-//component for the video card
 import React from 'react';
-import './Video.css'
+import './Video.css';
 
 function Video() {
     return ( <
         div className = "video" >
-
         <
+        h1 > This is the video component area < /h1> {
+            /* <VideoFooter /> */ } {
+            /* <VideoSidebar />  */ } <
         /div>
-    )
+    );
 }
 
-export default Video
+export default Video;
