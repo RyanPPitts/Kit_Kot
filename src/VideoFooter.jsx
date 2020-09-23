@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './VideoFooter.css';
+import MusicNoteIcon from '@material-ui/icons/MusicNote';
 
 function VideoFooter() {
   return (
@@ -8,6 +9,7 @@ function VideoFooter() {
       <div className="videoFooter__text">
         <h3> @RyanPitts</h3>
         <p> The funniest dog on TikTok</p>
+        <MusicNoteIcon />
       </div>
 
       {/* Spinner and scrolling text */}
