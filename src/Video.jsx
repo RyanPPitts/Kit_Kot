@@ -34,8 +34,8 @@ function Video() {
         description="Check this out"
         song="Come and Go"
       />
-      <VideoSidebar />
-      {/* <VideoSidebar /> */}
+
+      <VideoSidebar likes={111} messages={222} shares={333} />
     </div>
   );
 }
