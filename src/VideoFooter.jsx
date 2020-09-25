@@ -2,6 +2,7 @@
 import React from 'react';
 import './VideoFooter.css';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
+import Ticker from 'react-ticker';
 
 function VideoFooter() {
   return (
@@ -10,9 +11,15 @@ function VideoFooter() {
         <h3> @RyanPitts</h3>
         <p> The funniest dog on TikTok</p>
         <MusicNoteIcon />
+        <Ticker mode="smooth">
+          {({ index }) => (
+            <>
+              <h1>Yooo Whats up guys</h1>
+            </>
+          )}
+        </Ticker>
       </div>
 
-      {/* Spinner and scrolling text */}
       <img
         className="videoFooter__record"
         src="https://static.thenounproject.com/png/934821-200.png"
